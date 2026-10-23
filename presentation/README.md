@@ -2,7 +2,7 @@
 
 Un agent qui lit ma boîte Yahoo, comprend chaque mail, me prévient sur Telegram et **n'envoie une réponse qu'après mon clic sur « Valider »**.
 
-![Schéma du workflow](images/flow.png)
+![Schéma du workflow](flow.png)
 
 ## Ce qu'il fait
 - 📥 **Lit** chaque nouveau mail (IMAP), sans rien déplacer ni supprimer.
@@ -11,7 +11,7 @@ Un agent qui lit ma boîte Yahoo, comprend chaque mail, me prévient sur Telegra
 - ✅ **Demande confirmation** sur Telegram (boutons Valider / Rien faire), puis envoie la réponse depuis Yahoo.
 - ⏰ **Récap** à 8h et 18h, et 🚨 **alerte Telegram** si une étape plante.
 
-![Exemple de messages Telegram](images/tg.png)
+![Exemple de messages Telegram](tg.png)
 *Illustration : exemple fictif du format des messages.*
 
 ## Contenu du dépôt
