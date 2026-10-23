@@ -17,7 +17,7 @@ Un agent qui lit ma boîte Yahoo, comprend chaque mail, me prévient sur Telegra
 ## Contenu du dépôt
 | Dossier | Contenu |
 |---|---|
-| `workflow/` | `agent-mail-n8n.ts` : le workflow n8n (SDK TypeScript) |
+| `workflow/` | `agent-mail.workflow.ts` : le workflow n8n (SDK TypeScript) |
 | `skills/` | `interview.md`, `doubt-code.md`, `n8n-workflows.md` : les skills Claude utilisés |
 
 ## Installation rapide
