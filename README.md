@@ -4,6 +4,9 @@ Un agent qui lit ma boîte Yahoo, comprend chaque mail, me prévient sur Telegra
 
 ![Schéma du workflow](images/flow.png)
 
+## 🎥 Démo vidéo (5 min)
+▶️ **[Voir la démo sur Loom](https://www.loom.com/share/177075692c9f4c5f9b0b0d8bb9c241a8)** · ou télécharger la vidéo du dépôt : [`3-video/demo.mp4`](3-video/demo.mp4) · transcript : [`4-transcript/transcript.md`](4-transcript/transcript.md)
+
 ## Ce qu'il fait
 - 📥 **Lit** chaque nouveau mail (IMAP), sans rien déplacer ni supprimer.
 - 🤖 **Classe** avec Gemini : catégorie, résumé, brouillon de réponse, niveau de confiance.
@@ -17,8 +20,11 @@ Un agent qui lit ma boîte Yahoo, comprend chaque mail, me prévient sur Telegra
 ## Contenu du dépôt
 | Dossier | Contenu |
 |---|---|
-| `workflow/` | `agent-mail.workflow.ts` : le workflow n8n (SDK TypeScript) |
-| `skills/` | `interview.md`, `doubt-code.md`, `n8n-workflows.md` : les skills Claude utilisés |
+| `1-workflow/` | `agent-mail.workflow.ts` : le workflow n8n (SDK TypeScript) |
+| `2-skills/` | `interview/`, `doubt-code/`, `n8n-workflows/` : les 3 skills Claude utilisés (`SKILL.md`) |
+| `3-video/` | `demo.mp4` : la démo du workflow en vidéo (5 min) |
+| `4-transcript/` | `transcript.md` : le texte de la vidéo |
+| `images/` | les illustrations de ce README |
 
 ## Installation rapide
 1. Remplacer `VOTRE_CHAT_ID` (ton Id Telegram) et `votre.adresse@yahoo.com`.
