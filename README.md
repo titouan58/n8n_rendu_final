@@ -5,6 +5,9 @@ Un agent qui lit ma boîte Yahoo, comprend chaque mail, me prévient sur Telegra
 ![Schéma du workflow](images/flow.png)
 
 ## 🎥 Démo vidéo (5 min)
+
+https://github.com/user-attachments/assets/b19846b8-511d-453e-8bc0-d342103b50e8
+
 ▶️ **[Voir la démo sur Loom](https://www.loom.com/share/177075692c9f4c5f9b0b0d8bb9c241a8)** · ou télécharger la vidéo du dépôt : [`3-video/demo.mp4`](3-video/demo.mp4) · transcript : [`4-transcript/transcript.md`](4-transcript/transcript.md)
 
 ## Ce qu'il fait
